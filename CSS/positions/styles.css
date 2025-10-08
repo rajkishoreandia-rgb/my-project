@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.car1{
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.car2{
+    height: 200px;
+    width: 200px;
+    background: green;
+    position: absolute;
+    /* to make items move on top view give position 
+    if an element does not have position then top,left,rigth,bottom,z-index does not work
+    position absolute will calulate left/right/top/bottom based on screen size  */
+}
+.car3{
+    height: 300px;
+    width: 300px;
+    background: blue;
+}
+.outer{
+    background-color: aquamarine;
+    height: 1700px;
+    width: 700px;
+}
+.inner{
+    background-color: red;
+    height:200px;
+    width: 200px;
+    left: 50%;
+}
+.inner1{
+    height: 100px;
+    width: 100px;
+    background-color: pink ;
+    position: relative;
+}
+.inner2{
+    height: 50px;
+    width: 50px;
+    background: green;
+    /* to make items move on top view give position 
+    if an element does not have position then top,left,rigth,bottom,z-index does not work
+    position absolute will calulate left/right/top/bottom based on screen size  */
+}
+.inner3{
+    height: 30px;
+    width: 30px;
+    background: blue;
+    left: 80%;
+    position: fixed;
+}
+.parent{
+    position: relative;
+}
+.header{
+    /* display: block; */
+    width: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1759892673516-0f18ae0be01c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center; */
+    background:linear-gradient(red, green, blue);
+    /* background-clip:text ; */
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-stroke: 2px red;
+    font-size: 100px;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+}
+.child1{
+    height: 500px;
+    position: relative;
+}
+.child2{
+    height: 2000px;
+}
+.sticky{
+    background-color: red;
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    top: 75px;
+    z-index: 9;
+}
+h5{
+    position: absolute;
+    margin-top: 90px;
+}
+
+/* always write html/css boiler plate */
+
+/* Websites for design
+    bento grid
+    clippy 
+     */
+::-webkit-scrollbar{
+    /* background-color: red; */
+    opacity: 0.75;
+    width: 10px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
+    border: solid 1px red;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: red;
+}

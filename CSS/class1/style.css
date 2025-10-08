@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: horror;
+    src: url(../assets/fonts/Fonts\ for\ Everyone\ —\ Just\ €2.txt);
+}
+.box1{
+    /* background: linear-gradient(red ,blue);
+    background: linear-gradient(to right, red ,blue); */
+    /* background: linear-gradient(to left, red 10%  , blue 90%); */
+    /* background: radial-gradient(orange,white, green); */
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet);
+    height: 200px;
+    width: 200px;
+}
+.box2{
+    background-image: url("https://plus.unsplash.com/premium_photo-1670530034951-b7d0428d6c9c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+}
+.inner{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: aquamarine; */
+    /* background:linear-gradient(to right bottom,red,blue); */
+    /* background:radial-gradient(red,blue); */
+    /* background:conic-gradient(red,blue,red); */
+    background-image: url(https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+/* bgsize covers fix width wize image
+    bgsize contain fix height wize
+    bgrepeat  tells to repeat or not the image
+    bg position center means it will show the center part of the image 
+    bg image remove*/
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}   
+.btn:hover{
+    background-color: white;
+    color: black;
+} 
+.header{
+    font-family: horror;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 500px;
+}

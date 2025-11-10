@@ -1,9 +1,5 @@
-        Hi Raj! 
-        Aji mu cohort 2.0 start kali.
-
-                                Github DEMO
-                                ===========
-
-        COllaboration => Multiple user working on same project
-        Version Control => Manages different Versions of code So that in case of any issues in latest Version ,
-        we can roll back to our older Version.
+Beiges
+position => fixed 
+            absolute
+            sticky - will be sticky upto parent element height
+            relative

@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
+     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #main {
+            height: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #fileInp{
+            display: none;
+        }
+        #UploadBtn{
+            padding: 20px 30px;
+            background-color: rgb(151, 209, 64);
+            color: white;
+            border: solid 1px rgb(55, 221, 77);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #UploadBtn:hover{
+            background-color: rgb(71, 106, 36);
+        }
+        .btnCss{
+            background-color: red !important;
+        }
+/* 
+        h1 {
+            color: gray;
+            font-size: 100px;
+        } */
+    </style>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
-    <script src='jspractice2.js' defer></script>
+    <script src='jsEventListener.js' defer></script>
+   
 </head>
+
 <body>
-<h1>Welcome to JS</h1> 
+    <!-- <div id="main">
+        <h1>a</h1>
+    </div> -->
+    <!-- <h1 id="choosen">Welcome to JS</h1> 
 <h1>I am Raajkishore</h1> 
 <h1>I am from ODISHA</h1> 
-<a href="'">download</a> 
-<!-- <img src="" alt="not found"/> -->
+<a href="'">download</a>
+<img src="" alt="not found"/>
+ <input type="text" />
+ <select>
+    <option selected disabled>Select one</option>
+    <option value="option1">option 1</option>
+    <option value="option2">option2 </option>
+    <option value="option3">option 3</option>
+    <option value="option4">option 4</option>
+ </select> -->
+  <!-- <div id="main">
+       <input type="file" id="fileInp">
+       <div id="UploadBtn">
+        Upload
+       </div>
+    </div> -->
+
 </body>
+
 </html>

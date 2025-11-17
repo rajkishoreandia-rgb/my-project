@@ -107,3 +107,13 @@
 
 // Object.freeze(user) => You can't add any new key-value-pair or can't change existing key value
 // Object.seal(user) => You can use it to update the existing object value but can't add new key-value pair
+
+// console.log('in Practice')
+// let arr = [1,2,3,10,29,243,34,55]
+// arr.splice(3,3)
+// let newArr = arr.slice(2,5)
+// localStorage.setItem('arr',JSON.stringify(arr))
+// let storedArr = JSON.parse(localStorage.getItem('arr'))
+// console.log( JSON.parse(localStorage.getItem('arr')));
+// localStorage.removeItem('name')
+

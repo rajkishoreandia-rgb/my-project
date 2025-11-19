@@ -1,4 +1,5 @@
-*{
+@import "tailwindcss";
+/* *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -39,7 +40,6 @@ form {
   flex-direction: column;
 }
 form input{
-  /* width: 300px; */
   padding: 10px;
   margin: 20px 30px;
   color: black;
@@ -89,4 +89,4 @@ form button{
 }
 .card .top-card h1{
   margin: 10px;
-}
+} */

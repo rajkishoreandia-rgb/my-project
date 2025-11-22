@@ -1,13 +1,10 @@
+import Navbar from "./components/NavBar/Navbar";
 import ApiCall from "./pages/ApiCall";
-import Counter from "./pages/Counter";
-import FormComponent from "./pages/FormComponent";
-
 export default function App() {
 
   return (
     <div>
-      {/* <FormComponent/> */}
-      {/* <Counter /> */}
+      <Navbar />
       <ApiCall />
     </div>
   )
